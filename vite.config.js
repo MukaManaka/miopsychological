@@ -2,7 +2,7 @@
  * @Author: MIO
  * @Date: 2025-11-12 20:40:51
  * @LastEditors: MIO
- * @LastEditTime: 2025-11-19 20:49:52
+ * @LastEditTime: 2025-11-19 21:28:44
  * @FilePath: \MioPsychological\miopsychological\vite.config.js
  * @Description: 
  * @
@@ -21,7 +21,7 @@ export default defineConfig({
     vueDevTools(),
   ],
 
-  base :'/mioPsychological/',
+  base :'/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
