@@ -21,7 +21,7 @@ export default defineConfig({
     vueDevTools(),
   ],
 
-  base :'/',
+  base :'/miopsychological/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
