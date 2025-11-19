@@ -2,7 +2,7 @@
  * @Author: MIO
  * @Date: 2025-11-06 20:01:23
  * @LastEditors: MIO
- * @LastEditTime: 2025-11-19 20:50:09
+ * @LastEditTime: 2025-11-19 21:36:24
  * @FilePath: \MioPsychological\miopsychological\src\router\index.js
  * @Description: 
  * @
@@ -34,8 +34,8 @@ const routes = [
 ]
 
 const router = createRouter({
-    history: createWebHashHistory(),
-    // history: createWebHashHistory(process.env.BASE_URL),
+    // history: createWebHashHistory(),
+    history: createWebHashHistory(process.env.BASE_URL),
     // history: createWebHashHistory(),
     routes,
 })
